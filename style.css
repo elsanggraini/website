@@ -1,0 +1,157 @@
+body { 
+    margin: 0; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+} 
+ 
+a { 
+    text-decoration: none; 
+} 
+
+.header {
+    background-color: beige;
+    height: 90px;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+.header-list li {
+    float: right;
+    padding: 20px 40px;
+    color: darkred;
+    font-size: 20px;
+}
+
+.logopng {
+    width: 70px;
+    float: left;
+    margin-top: 3px;
+}
+ 
+.container { 
+    width: 1170px; 
+    padding: 0 15px; 
+    margin: 0 auto; 
+} 
+ 
+.top-wrapper { 
+    padding: 150px 0 150px; 
+    background-image: url(homepage_SMKN.jpg); 
+    background-size: cover; 
+    color: white; 
+    text-align: center; 
+} 
+ 
+.top-wrapper h1 {  
+    font-size: 50px; 
+    letter-spacing: 3px; 
+    margin-bottom: 20px;
+} 
+ 
+.top-wrapper p { 
+    opacity: 0,10; 
+    margin-bottom: 10px; 
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+} 
+ 
+.btn { 
+    padding: 12px 24px; 
+    color: white; 
+    display: inline-block; 
+    opacity: 0,7; 
+    border-radius: 6px; 
+} 
+ 
+.btn:hover { 
+    opacity: 1; 
+} 
+ 
+.signup { 
+    background-color: rgb(187, 83, 72); 
+} 
+ 
+.facebook { 
+    background-color: rgb(72, 72, 139); 
+    margin-right: 10px; 
+} 
+ 
+.twitter { 
+    background-color: rgb(125, 208, 208); 
+}
+
+.section-tittle{
+    border-bottom: 2px solid #733c12; /*batas*/
+}
+
+.content{ /*konten*/
+    width: 1200px;
+    height: 10px;
+    margin: 50px;
+    text-align: justify;
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.greeting {
+    font-size: 36px;
+    font-weight: bold;
+}
+.kolom-koran span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.kolom-koran{ 
+    -webkit-column-count: 3;
+    -webkit-column-width: 10;
+}
+
+.contact-form{
+    padding-top: 500px;
+    margin: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+input,textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+input,textarea{
+    border: 1px solid #192125;
+}
+
+.submit-contact{
+    background-color: #dee7ec;
+}
+
+.footer{
+    background-color: #192125;
+    height: 140px;
+    padding: 20px 40px;
+}
+
+.logofooter{
+    width: 90px;
+    float: left;
+    margin-top: 30px;
+}
+
+.footer-list{
+    float: right;
+}
+
+.footer-list li{
+    color: beige;
+    padding-bottom: 20px;
+}
